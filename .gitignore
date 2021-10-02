@@ -133,5 +133,4 @@ dmypy.json
 .idea/
 
 # venv
-venv/
 ambientevirtual/
