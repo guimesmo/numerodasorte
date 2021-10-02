@@ -17,16 +17,28 @@
             background: #fc660b;
             color: #fff;
             padding: 30px;
-            border-radius: 10px;
+            border-radius: 60px;
             font-size: 20px;
+            width: 30px;
         }
     </style>
+    <title>Números pra você jogar na mega</title>
+    <meta name="description" content="Gerador de números pra você jogar na mega sena!"/>
     <body>
-    <h1>Joga esses números. Vai dar bom!!!</h1>
+    <h1>Jogue esses números!!!</h1>
     <div class="numeros">
         {% for n in numeros %}
             <strong>{{ n }}</strong>&nbsp;
         {% endfor %}
     </div>
     </body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S17RC65DZW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-S17RC65DZW');
+    </script>
 </html>
