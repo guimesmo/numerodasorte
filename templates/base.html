@@ -1,0 +1,32 @@
+<html>
+    <style>
+        body {
+            font-family: Arial, Helvetia, sans-serif;
+        }
+        h1 {
+            margin: 50px;
+            color: #0a6bb0;
+            font-size: 30px;
+            text-align: center;
+        }
+        .numeros {
+            text-align: center;
+        }
+        .numeros strong {
+            display: inline-block;
+            background: #fc660b;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    </style>
+    <body>
+    <h1>Joga esses números. Vai dar bom!!!</h1>
+    <div class="numeros">
+        {% for n in numeros %}
+            <strong>{{ n }}</strong>&nbsp;
+        {% endfor %}
+    </div>
+    </body>
+</html>
