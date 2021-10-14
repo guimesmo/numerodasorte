@@ -21,6 +21,13 @@
             font-size: 20px;
             width: 30px;
         }
+        .link {
+            text-transform: uppercase;
+            color: #5e6468;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: underline;
+        }
     </style>
     <title>Números pra você jogar na mega</title>
     <meta name="description" content="Gerador de números pra você jogar na mega sena!"/>
@@ -30,8 +37,11 @@
         {% for n in numeros %}
             <strong>{{ n }}</strong>&nbsp;
         {% endfor %}
-    <br />
-        <a href="/">Gerar novamente</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <a href="/" class="link">Gerar novamente</a>
     </div>
     </body>
     <!-- Global site tag (gtag.js) - Google Analytics -->
